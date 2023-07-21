@@ -1,0 +1,42 @@
+.stage{
+   background-color: rgb(49, 185, 219);
+   width: 50%;
+   height: 4rem;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(232, 219, 219);
+   font-size: 2rem;
+   border-radius: 1rem;
+
+}
+.sectionContainer{
+   width: 80%;
+   margin: 2rem auto;
+   display: grid;
+   grid-template-columns: 3fr 6fr 3fr;
+   gap:.5rem;
+   .section{
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      button{
+         width: 2.5rem;
+         height: 2.5rem;
+         margin: .5rem;
+      }
+   }
+   .sectionA{
+      grid-column: 2/3;
+   }
+   .sectionB{
+      grid-column: 1/2;
+      grid-row: 1;
+   }
+   .sectionC{
+
+   }
+   .sectionD{
+      grid-column: 2/3;
+   }
+}
